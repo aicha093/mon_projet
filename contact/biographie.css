@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+
+}
+
+nav{
+	background: silver;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	
+	
+}
+
+nav ul{
+	float: right;
+	margin-right: 60PX;
+}
+nav ul li{
+display: inline-block ;
+line-height: 80PX;
+margin: 0 5px;	
+}
+nav ul li a:hover{
+     color: green;
+	font-size: 17px;
+	padding: 7PX 13px;
+	border-radius: 3px;
+	background: #fff;
+	}
+
+h1{
+	font-size: 50px;
+	font-style: italic;
+
+}
+input[ name="Commentaire"]{
+	background-color: white;
+	width: 600px;
+	height: 200px;
+	
+}
+input[ name="Email"]{
+	background-color: white;
+	width: 300px;
+	height: 30px;
+}
+input[ name="Prénom-Nom"]{
+	background-color: white;
+	width: 300px;
+	height: 30px;
+}
+input[ name="objet"]{
+	background-color: white;
+	width: 300px;
+	height: 30px;
+
+}
+fieldset{
+	margin-top: 70px;
+	width: 100%;
+ color: darkblue;
+ background-color: yellow;
+}
+
+input{
+	
+	color: darkcyan;
+	width: 80%;
+	font-size: 17px;
+	border-radius: 10px;
+}
+
+
+ table img{
+	display: block;
+	border: 2px solid black;
+	padding: 1px;
+	margin: 10;
+}
